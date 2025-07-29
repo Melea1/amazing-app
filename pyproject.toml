@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "amazing-app"
+version = "0.1.0"
+description = "Une app Streamlit"
+authors = ["Melea1 <ton.email@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+streamlit = "^1.20.0"
+pandas = "^2.3.1"
+numpy = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
