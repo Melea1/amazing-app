@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_KEY = "d965d5dd16524cce9ea182041252907"  # Remplace ici par ta vraie clé
+API_KEY = "dfb0fe04aa194815904184622252907"  # Remplace ici par ta vraie clé
 
 st.title("🌤️ Application Météo")
 st.write("Obtiens la météo actuelle d'une ville 🌍")
