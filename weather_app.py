@@ -1,3 +1,6 @@
+import os
+os.environ["WATCHFILES_DISABLE"] = "true"
+
 import streamlit as st
 import requests
 
